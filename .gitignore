@@ -1,0 +1,14 @@
+CachedExtensionVSIXs/
+CachedProfilesData/
+code-server/
+extensions/
+logs/
+Machine/
+slurm/
+User/
+code-server-ipc.sock
+coder.json
+model_download/
+outputs/
+output/
+artifacts/
