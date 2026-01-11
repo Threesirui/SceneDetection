@@ -1,0 +1,605 @@
+[2026-01-11T14:32:44.067Z] debug parent:2198942 spawned child process 2199027
+[2026-01-11T14:32:44.651Z] debug child:2199027 initiating handshake
+[2026-01-11T14:32:44.655Z] debug parent:2198942 got message [38;2;140;140;140m{"message":{"type":"handshake"}}[0m
+[2026-01-11T14:32:44.657Z] debug child:2199027 got message [38;2;140;140;140m{"message":{"type":"handshake","args":{"auth":"none","config":"/seu_share/OGSP/vscode/config.yaml","port":23504,"host":"0.0.0.0","user-data-dir":"/seu_nvme/home/huangjie/230248634/SceneDetection","log":"debug","_":["/seu_nvme/home/huangjie/230248634/SceneDetection"],"disable-telemetry":true,"ignore-last-opened":true,"extensions-dir":"/seu_nvme/home/huangjie/230248634/SceneDetection/extensions","session-socket":"/seu_nvme/home/huangjie/230248634/SceneDetection/code-server-ipc.sock","verbose":false,"proxy-domain":[],"usingEnvPassword":false,"usingEnvHashedPassword":false}}}[0m
+[2026-01-11T14:32:44.657Z] info  code-server 4.91.1 1962f48b7f71772dc2c060dbaa5a6b4c0792a549
+[2026-01-11T14:32:44.657Z] info  Using user-data-dir /seu_nvme/home/huangjie/230248634/SceneDetection
+[2026-01-11T14:32:44.657Z] debug Using extensions-dir /seu_nvme/home/huangjie/230248634/SceneDetection/extensions
+[2026-01-11T14:32:44.727Z] info  Using config file /seu_share/OGSP/vscode/config.yaml
+[2026-01-11T14:32:44.727Z] info  HTTP server listening on http://0.0.0.0:23504/
+[2026-01-11T14:32:44.727Z] info    - Authentication is disabled
+[2026-01-11T14:32:44.728Z] info    - Not serving HTTPS
+[2026-01-11T14:32:44.728Z] info  Session server listening on /seu_nvme/home/huangjie/230248634/SceneDetection/code-server-ipc.sock
+[2026-01-11T14:32:56.431Z] debug heartbeat
+[22:32:56] 
+
+
+
+
+[22:32:56] Extension host agent started.
+[22:32:56] No uninstalled extensions found.
+[2026-01-11T14:32:56.747Z] debug redirecting from / to ./?folder=/seu_nvme/home/huangjie/230248634/SceneDetection
+File not found: /seu_share/apps/code-server-4.91.1/lib/vscode/out/vsda_bg.wasm
+File not found: /seu_share/apps/code-server-4.91.1/lib/vscode/out/vsda.js
+[22:32:57] [172.22.2.242][ab740c6a][ManagementConnection] New connection established.
+[2026-01-11T14:32:58.157Z] debug Making request [38;2;140;140;140m{"uri":"https://api.github.com/repos/coder/code-server/releases/latest"}[0m
+[22:32:58] Using cached extensions scan result system file:///seu_share/apps/code-server-4.91.1/lib/vscode/extensions
+[22:32:58] Using cached extensions scan result user file:///seu_nvme/home/huangjie/230248634/SceneDetection/extensions/extensions.json
+[22:32:58] ComputeTargetPlatform: linux-x64
+[22:32:58] [172.22.2.242][1d14e53e][ExtensionHostConnection] New connection established.
+[22:32:58] Using cached extensions scan result system file:///seu_share/apps/code-server-4.91.1/lib/vscode/extensions
+[22:32:59] Using cached extensions scan result system file:///seu_share/apps/code-server-4.91.1/lib/vscode/extensions
+[22:32:59] Using cached extensions scan result system file:///seu_share/apps/code-server-4.91.1/lib/vscode/extensions
+[22:33:00] [172.22.2.242][1d14e53e][ExtensionHostConnection] <2199589> Launched Extension Host Process.
+[22:33:00] Terminal profile not validated zsh [ 'zsh' ]
+[22:33:00] Terminal profile not validated fish [ 'fish' ]
+[22:33:00] Terminal profile not validated tmux [ 'tmux' ]
+[22:33:00] Terminal profile not validated pwsh [ 'pwsh' ]
+[22:33:00] ComputeTargetPlatform: linux-x64
+[22:33:00] Using cached extensions scan result system file:///seu_share/apps/code-server-4.91.1/lib/vscode/extensions
+[22:33:00] Using cached extensions scan result system file:///seu_share/apps/code-server-4.91.1/lib/vscode/extensions
+[2026-01-11T14:33:06.911Z] debug Adding session to session registry: /run/user/2783/vscode-ipc-741993b4-1741-48eb-982e-aa0045e07fc2.sock
+[22:33:08] Terminal profile not validated zsh [ 'zsh' ]
+[22:33:08] Terminal profile not validated fish [ 'fish' ]
+[22:33:08] Terminal profile not validated tmux [ 'tmux' ]
+[22:33:08] Terminal profile not validated pwsh [ 'pwsh' ]
+[22:33:08] Terminal process launching on remote agent {
+  shellLaunchConfig: {
+    name: undefined,
+    executable: '/bin/bash',
+    args: undefined,
+    cwd: '/seu_nvme/home/huangjie/230248634/SceneDetection',
+    env: undefined,
+    useShellEnvironment: true,
+    reconnectionProperties: undefined,
+    type: undefined,
+    isFeatureTerminal: undefined
+  },
+  initialCwd: '/seu_nvme/home/huangjie/230248634/SceneDetection',
+  cols: 80,
+  rows: 30,
+  env: {
+    HYDRA_LAUNCHER_EXTRA_ARGS: '--external-launcher',
+    __MODULES_LMINIT: 'module use --append /usr/local/Modules/modulefiles',
+    CONDA_SHLVL: '1',
+    SLURM_SHARDS_ON_NODE: '1',
+    CONDA_EXE: '/seu_share/apps/anaconda3/bin/conda',
+    SLURM_NODEID: '0',
+    SLURM_TASK_PID: '2198928',
+    SSH_CONNECTION: '172.22.2.242 47668 172.22.2.249 22',
+    SLURM_PRIO_PROCESS: '0',
+    I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS: '--external-launcher',
+    LANG: 'en_US.UTF-8',
+    SLURM_SUBMIT_DIR: '/seu_nvme/home/huangjie/230248634/SceneDetection',
+    HISTCONTROL: 'ignoredups',
+    OMPI_MCA_plm_slurm_args: '--external-launcher',
+    GUESTFISH_RESTORE: '\\e[0m',
+    HISTTIMEFORMAT: '[%Y-%m-%d %H:%M:%S] [230248634] []: ',
+    HOSTNAME: 'gpu14',
+    OLDPWD: '/seu_share/home/huangjie/230248634',
+    SLURM_CPUS_PER_TASK: '1',
+    ENVIRONMENT: 'BATCH',
+    GUESTFISH_INIT: '\\e[1;34m',
+    ROCR_VISIBLE_DEVICES: '0',
+    CONDA_PREFIX: '/seu_share/apps/anaconda3',
+    SLURM_PROCID: '0',
+    SLURM_JOB_GID: '13120',
+    I_MPI_HYDRA_BOOTSTRAP: 'slurm',
+    SLURMD_NODENAME: 'gpu14',
+    SLURM_JOB_END_TIME: '1768163562',
+    SLURM_TASKS_PER_NODE: '1',
+    S_COLORS: 'auto',
+    PRTE_MCA_plm_slurm_args: '--external-launcher',
+    _CE_M: '',
+    which_declare: 'declare -f',
+    XDG_SESSION_ID: '423056',
+    MODULES_CMD: '/usr/local/Modules/libexec/modulecmd.tcl',
+    USER: '230248634',
+    SLURM_NNODES: '1',
+    GUESTFISH_PS1: '\\[\\e[1;32m\\]><fs>\\[\\e[0;31m\\] ',
+    HF_ENDPOINT: 'https://hf-mirror.com',
+    SLURM_JOB_START_TIME: '1768141962',
+    SLURM_NTASKS_PER_NODE: '1',
+    PWD: '/seu_nvme/home/huangjie/230248634/SceneDetection',
+    SSH_ASKPASS: '/usr/libexec/openssh/gnome-ssh-askpass',
+    SLURM_JOB_NODELIST: 'gpu14',
+    HOME: '/seu_share/home/huangjie/230248634',
+    SLURM_CLUSTER_NAME: 'cluster',
+    CONDA_PYTHON_EXE: '/seu_share/apps/anaconda3/bin/python',
+    SLURM_NODELIST: 'gpu14',
+    SSH_CLIENT: '172.22.2.242 47668 22',
+    SLURM_NTASKS: '1',
+    SLURM_JOB_CPUS_PER_NODE: '1',
+    XDG_DATA_DIRS: '/seu_share/home/huangjie/230248634/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share',
+    SLURM_THREADS_PER_CORE: '1',
+    SLURM_TOPOLOGY_ADDR: 'gpu14',
+    _CE_CONDA: '',
+    __MODULES_SHARE_MANPATH: ':1',
+    SLURM_JOB_NAME: 'vscode',
+    TMPDIR: '/tmp',
+    SLURM_JOBID: '599713',
+    SLURM_CONF: '/etc/slurm/slurm.conf',
+    LOADEDMODULES: '',
+    SLURM_JOB_QOS: 'ogsp',
+    SLURM_TOPOLOGY_ADDR_PATTERN: 'node',
+    CONDA_PROMPT_MODIFIER: '(base) ',
+    ZE_AFFINITY_MASK: '0',
+    SLURM_CPUS_ON_NODE: '1',
+    SLURM_JOB_NUM_NODES: '1',
+    SHELL: '/bin/bash',
+    SLURM_JOB_UID: '2783',
+    TC_LIB_DIR: '/usr/lib64/tc',
+    SLURM_JOB_PARTITION: 'jupyter',
+    SLURM_HINT: 'nomultithread',
+    SLURM_JOB_USER: '230248634',
+    SLURM_NPROCS: '1',
+    SHLVL: '4',
+    SLURM_SUBMIT_HOST: 'login02',
+    SLURM_JOB_ACCOUNT: 'huangjie',
+    MANPATH: '/usr/local/Modules/share/man:',
+    SLURM_TRES_PER_TASK: 'cpu:1',
+    HYDRA_BOOTSTRAP: 'slurm',
+    MODULEPATH: '/etc/scl/modulefiles:/seu_share/modulefiles/:/seu_share/modulefiles/new/:/seu_share/apps/spack/spack-0.21.1/share/spack/modules/linux-rocky8-skylake_avx512',
+    SLURM_GTIDS: '0',
+    LOGNAME: '230248634',
+    DBUS_SESSION_BUS_ADDRESS: 'unix:path=/run/user/2783/bus',
+    XDG_RUNTIME_DIR: '/run/user/2783',
+    PATH: '/seu_share/apps/code-server-4.91.1/lib/vscode/bin/remote-cli:/usr/lpp/mmfs/bin:/seu_share/apps/anaconda3/bin:/seu_share/apps/anaconda3/condabin:/seu_share/home/huangjie/230248634/.local/bin:/seu_share/home/huangjie/230248634/bin:/usr/local/Modules/bin:/usr/lpp/mmfs/bin:/usr/local/git-2.48.0/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin',
+    SLURM_JOB_ID: '599713',
+    GUESTFISH_OUTPUT: '\\e[0m',
+    MODULESHOME: '/usr/share/Modules',
+    CONDA_DEFAULT_ENV: 'base',
+    HISTSIZE: '1000',
+    HISTFILESIZE: '10000',
+    SLURM_LOCALID: '0',
+    GPU_DEVICE_ORDINAL: '0',
+    LESSOPEN: '||/usr/bin/lesspipe.sh %s',
+    'BASH_FUNC_which%%': '() {  ( alias;\n' +
+      ' eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot "$@"\n' +
+      '}',
+    'BASH_FUNC_module%%': '() {  local _mlredir=0;\n' +
+      ' if [ -n "${MODULES_REDIRECT_OUTPUT+x}" ]; then\n' +
+      ` if [ "$MODULES_REDIRECT_OUTPUT" = '0' ]; then\n` +
+      ' _mlredir=0;\n' +
+      ' else\n' +
+      ` if [ "$MODULES_REDIRECT_OUTPUT" = '1' ]; then\n` +
+      ' _mlredir=1;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' case " $@ " in \n' +
+      " *' --no-redirect '*)\n" +
+      ' _mlredir=0\n' +
+      ' ;;\n' +
+      " *' --redirect '*)\n" +
+      ' _mlredir=1\n' +
+      ' ;;\n' +
+      ' esac;\n' +
+      ' if [ $_mlredir -eq 0 ]; then\n' +
+      ' _module_raw "$@";\n' +
+      ' else\n' +
+      ' _module_raw "$@" 2>&1;\n' +
+      ' fi\n' +
+      '}',
+    'BASH_FUNC__module_raw%%': `() {  eval "$(/usr/bin/tclsh '/usr/local/Modules/libexec/modulecmd.tcl' bash "$@")";\n` +
+      ' _mlstatus=$?;\n' +
+      ' return $_mlstatus\n' +
+      '}',
+    'BASH_FUNC_scl%%': '() {  if [ "$1" = "load" -o "$1" = "unload" ]; then\n' +
+      ' eval "module $@";\n' +
+      ' else\n' +
+      ' /usr/bin/scl "$@";\n' +
+      ' fi\n' +
+      '}',
+    'BASH_FUNC_ml%%': '() {  module ml "$@"\n}',
+    LOG_LEVEL: 'debug',
+    NODE_EXEC_PATH: '/seu_share/apps/code-server-4.91.1/lib/node',
+    MODULES_LOGGED_EVENTS: 'requested_cmd:requested_eval',
+    MAIL: '/var/spool/mail/230248634',
+    _: '/seu_share/apps/code-server-4.91.1/lib/node',
+    VSCODE_PROXY_URI: 'https://sc.seu.edu.cn/rnode/gpu14/23504/proxy/{{port}}/',
+    BROWSER: '/seu_share/apps/code-server-4.91.1/lib/vscode/bin/helpers/browser.sh',
+    TERM_PROGRAM: 'vscode',
+    TERM_PROGRAM_VERSION: '1.91.1',
+    COLORTERM: 'truecolor',
+    GIT_ASKPASS: '/seu_share/apps/code-server-4.91.1/lib/vscode/extensions/git/dist/askpass.sh',
+    VSCODE_GIT_ASKPASS_NODE: '/seu_share/apps/code-server-4.91.1/lib/node',
+    VSCODE_GIT_ASKPASS_EXTRA_ARGS: '',
+    VSCODE_GIT_ASKPASS_MAIN: '/seu_share/apps/code-server-4.91.1/lib/vscode/extensions/git/dist/askpass-main.js',
+    VSCODE_GIT_IPC_HANDLE: '/run/user/2783/vscode-git-f81d4f9f7a.sock'
+  }
+}
+[22:33:09] Error: listen EACCES: permission denied /run/user/2783/vscode-ipc-50a819fb-1dd5-4722-b016-c01ed441b841.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1855:21)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2025:5)
+    at o.g (/seu_share/apps/code-server-4.91.1/lib/vscode/out/vs/server/node/server.main.js:185:78999)
+    at new o (/seu_share/apps/code-server-4.91.1/lib/vscode/out/vs/server/node/server.main.js:185:78914)
+    at t.s (/seu_share/apps/code-server-4.91.1/lib/vscode/out/vs/server/node/server.main.js:185:89343)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '/run/user/2783/vscode-ipc-50a819fb-1dd5-4722-b016-c01ed441b841.sock',
+  port: -1
+}
+[22:33:15] Terminal profile not validated zsh [ 'zsh' ]
+[22:33:15] Terminal profile not validated fish [ 'fish' ]
+[22:33:15] Terminal profile not validated tmux [ 'tmux' ]
+[22:33:15] Terminal profile not validated pwsh [ 'pwsh' ]
+[22:33:15] Terminal process launching on remote agent {
+  shellLaunchConfig: {
+    name: 'Python bash Deactivate',
+    executable: '/bin/bash',
+    args: undefined,
+    cwd: '/seu_nvme/home/huangjie/230248634/SceneDetection/extensions/ms-python.python-2024.14.1-universal/python_files/deactivate/bash',
+    env: undefined,
+    useShellEnvironment: true,
+    reconnectionProperties: undefined,
+    type: undefined,
+    isFeatureTerminal: undefined
+  },
+  initialCwd: '/seu_nvme/home/huangjie/230248634/SceneDetection/extensions/ms-python.python-2024.14.1-universal/python_files/deactivate/bash',
+  cols: 80,
+  rows: 30,
+  env: {
+    HYDRA_LAUNCHER_EXTRA_ARGS: '--external-launcher',
+    __MODULES_LMINIT: 'module use --append /usr/local/Modules/modulefiles',
+    CONDA_SHLVL: '2',
+    SLURM_SHARDS_ON_NODE: '1',
+    CONDA_EXE: '/seu_share/apps/anaconda3/bin/conda',
+    SLURM_NODEID: '0',
+    SLURM_TASK_PID: '2198928',
+    SSH_CONNECTION: '172.22.2.242 47668 172.22.2.249 22',
+    SLURM_PRIO_PROCESS: '0',
+    I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS: '--external-launcher',
+    LANG: 'en_US.UTF-8',
+    SLURM_SUBMIT_DIR: '/seu_nvme/home/huangjie/230248634/SceneDetection',
+    HISTCONTROL: 'ignoredups',
+    OMPI_MCA_plm_slurm_args: '--external-launcher',
+    GUESTFISH_RESTORE: '\\e[0m',
+    HISTTIMEFORMAT: '[%Y-%m-%d %H:%M:%S] [230248634] []: ',
+    HOSTNAME: 'gpu14',
+    OLDPWD: '/seu_share/home/huangjie/230248634',
+    SLURM_CPUS_PER_TASK: '1',
+    ENVIRONMENT: 'BATCH',
+    GUESTFISH_INIT: '\\e[1;34m',
+    ROCR_VISIBLE_DEVICES: '0',
+    CONDA_PREFIX: '/seu_share/home/huangjie/230248634/.conda/envs/MAGE',
+    SLURM_PROCID: '0',
+    SLURM_JOB_GID: '13120',
+    I_MPI_HYDRA_BOOTSTRAP: 'slurm',
+    SLURMD_NODENAME: 'gpu14',
+    SLURM_JOB_END_TIME: '1768163562',
+    SLURM_TASKS_PER_NODE: '1',
+    S_COLORS: 'auto',
+    PRTE_MCA_plm_slurm_args: '--external-launcher',
+    _CE_M: '',
+    which_declare: 'declare -f',
+    XDG_SESSION_ID: '423056',
+    MODULES_CMD: '/usr/local/Modules/libexec/modulecmd.tcl',
+    USER: '230248634',
+    SLURM_NNODES: '1',
+    GUESTFISH_PS1: '\\[\\e[1;32m\\]><fs>\\[\\e[0;31m\\] ',
+    HF_ENDPOINT: 'https://hf-mirror.com',
+    SLURM_JOB_START_TIME: '1768141962',
+    SLURM_NTASKS_PER_NODE: '1',
+    PWD: '/seu_nvme/home/huangjie/230248634/SceneDetection',
+    SSH_ASKPASS: '/usr/libexec/openssh/gnome-ssh-askpass',
+    SLURM_JOB_NODELIST: 'gpu14',
+    HOME: '/seu_share/home/huangjie/230248634',
+    SLURM_CLUSTER_NAME: 'cluster',
+    CONDA_PYTHON_EXE: '/seu_share/apps/anaconda3/bin/python',
+    SLURM_NODELIST: 'gpu14',
+    SSH_CLIENT: '172.22.2.242 47668 22',
+    SLURM_NTASKS: '1',
+    SLURM_JOB_CPUS_PER_NODE: '1',
+    XDG_DATA_DIRS: '/seu_share/home/huangjie/230248634/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share',
+    SLURM_THREADS_PER_CORE: '1',
+    SLURM_TOPOLOGY_ADDR: 'gpu14',
+    _CE_CONDA: '',
+    __MODULES_SHARE_MANPATH: ':1',
+    SLURM_JOB_NAME: 'vscode',
+    TMPDIR: '/tmp',
+    SLURM_JOBID: '599713',
+    SLURM_CONF: '/etc/slurm/slurm.conf',
+    LOADEDMODULES: '',
+    SLURM_JOB_QOS: 'ogsp',
+    SLURM_TOPOLOGY_ADDR_PATTERN: 'node',
+    CONDA_PROMPT_MODIFIER: '(MAGE) ',
+    ZE_AFFINITY_MASK: '0',
+    SLURM_CPUS_ON_NODE: '1',
+    SLURM_JOB_NUM_NODES: '1',
+    SHELL: '/bin/bash',
+    SLURM_JOB_UID: '2783',
+    TC_LIB_DIR: '/usr/lib64/tc',
+    SLURM_JOB_PARTITION: 'jupyter',
+    SLURM_HINT: 'nomultithread',
+    SLURM_JOB_USER: '230248634',
+    SLURM_NPROCS: '1',
+    SHLVL: '4',
+    SLURM_SUBMIT_HOST: 'login02',
+    SLURM_JOB_ACCOUNT: 'huangjie',
+    MANPATH: '/usr/local/Modules/share/man:',
+    SLURM_TRES_PER_TASK: 'cpu:1',
+    HYDRA_BOOTSTRAP: 'slurm',
+    MODULEPATH: '/etc/scl/modulefiles:/seu_share/modulefiles/:/seu_share/modulefiles/new/:/seu_share/apps/spack/spack-0.21.1/share/spack/modules/linux-rocky8-skylake_avx512',
+    SLURM_GTIDS: '0',
+    LOGNAME: '230248634',
+    DBUS_SESSION_BUS_ADDRESS: 'unix:path=/run/user/2783/bus',
+    XDG_RUNTIME_DIR: '/run/user/2783',
+    PATH: '/seu_share/apps/code-server-4.91.1/lib/vscode/bin/remote-cli:/usr/lpp/mmfs/bin:/seu_share/home/huangjie/230248634/.conda/envs/MAGE/bin:/seu_share/apps/anaconda3/condabin:/seu_share/home/huangjie/230248634/.local/bin:/seu_share/home/huangjie/230248634/bin:/usr/local/Modules/bin:/usr/lpp/mmfs/bin:/usr/local/git-2.48.0/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/seu_share/apps/code-server-4.91.1/lib/vscode/bin/remote-cli:/usr/lpp/mmfs/bin:/seu_share/apps/anaconda3/bin:/seu_share/apps/anaconda3/condabin:/seu_share/home/huangjie/230248634/.local/bin:/seu_share/home/huangjie/230248634/bin:/usr/local/Modules/bin:/usr/lpp/mmfs/bin:/usr/local/git-2.48.0/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin',
+    SLURM_JOB_ID: '599713',
+    GUESTFISH_OUTPUT: '\\e[0m',
+    MODULESHOME: '/usr/share/Modules',
+    CONDA_DEFAULT_ENV: 'MAGE',
+    HISTSIZE: '1000',
+    HISTFILESIZE: '10000',
+    SLURM_LOCALID: '0',
+    GPU_DEVICE_ORDINAL: '0',
+    LESSOPEN: '||/usr/bin/lesspipe.sh %s',
+    'BASH_FUNC_which%%': '() {  ( alias;\n' +
+      ' eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot "$@"\n' +
+      '}',
+    'BASH_FUNC_module%%': '() {  local _mlredir=0;\n' +
+      ' if [ -n "${MODULES_REDIRECT_OUTPUT+x}" ]; then\n' +
+      ` if [ "$MODULES_REDIRECT_OUTPUT" = '0' ]; then\n` +
+      ' _mlredir=0;\n' +
+      ' else\n' +
+      ` if [ "$MODULES_REDIRECT_OUTPUT" = '1' ]; then\n` +
+      ' _mlredir=1;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' case " $@ " in \n' +
+      " *' --no-redirect '*)\n" +
+      ' _mlredir=0\n' +
+      ' ;;\n' +
+      " *' --redirect '*)\n" +
+      ' _mlredir=1\n' +
+      ' ;;\n' +
+      ' esac;\n' +
+      ' if [ $_mlredir -eq 0 ]; then\n' +
+      ' _module_raw "$@";\n' +
+      ' else\n' +
+      ' _module_raw "$@" 2>&1;\n' +
+      ' fi\n' +
+      '}',
+    'BASH_FUNC__module_raw%%': `() {  eval "$(/usr/bin/tclsh '/usr/local/Modules/libexec/modulecmd.tcl' bash "$@")";\n` +
+      ' _mlstatus=$?;\n' +
+      ' return $_mlstatus\n' +
+      '}',
+    'BASH_FUNC_scl%%': '() {  if [ "$1" = "load" -o "$1" = "unload" ]; then\n' +
+      ' eval "module $@";\n' +
+      ' else\n' +
+      ' /usr/bin/scl "$@";\n' +
+      ' fi\n' +
+      '}',
+    'BASH_FUNC_ml%%': '() {  module ml "$@"\n}',
+    LOG_LEVEL: 'debug',
+    NODE_EXEC_PATH: '/seu_share/apps/code-server-4.91.1/lib/node',
+    MODULES_LOGGED_EVENTS: 'requested_cmd:requested_eval',
+    MAIL: '/var/spool/mail/230248634',
+    _: '/seu_share/apps/code-server-4.91.1/lib/node',
+    VSCODE_PROXY_URI: 'https://sc.seu.edu.cn/rnode/gpu14/23504/proxy/{{port}}/',
+    BROWSER: '/seu_share/apps/code-server-4.91.1/lib/vscode/bin/helpers/browser.sh',
+    TERM_PROGRAM: 'vscode',
+    TERM_PROGRAM_VERSION: '1.91.1',
+    COLORTERM: 'truecolor',
+    GIT_ASKPASS: '/seu_share/apps/code-server-4.91.1/lib/vscode/extensions/git/dist/askpass.sh',
+    VSCODE_GIT_ASKPASS_NODE: '/seu_share/apps/code-server-4.91.1/lib/node',
+    VSCODE_GIT_ASKPASS_EXTRA_ARGS: '',
+    VSCODE_GIT_ASKPASS_MAIN: '/seu_share/apps/code-server-4.91.1/lib/vscode/extensions/git/dist/askpass-main.js',
+    VSCODE_GIT_IPC_HANDLE: '/run/user/2783/vscode-git-f81d4f9f7a.sock',
+    VSCODE_ENV_REPLACE: 'CONDA_SHLVL=2:GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=:CONDA_PREFIX=/seu_share/home/huangjie/230248634/.conda/envs/MAGE:CONDA_PREFIX_1=/seu_share/apps/anaconda3:GSETTINGS_SCHEMA_DIR=/seu_share/home/huangjie/230248634/.conda/envs/MAGE/share/glib-2.0/schemas:CONDA_PROMPT_MODIFIER=(MAGE) :CONDA_ROOT=/seu_share/apps/anaconda3:CONDA_DEFAULT_ENV=MAGE',
+    GSETTINGS_SCHEMA_DIR_CONDA_BACKUP: '',
+    CONDA_PREFIX_1: '/seu_share/apps/anaconda3',
+    GSETTINGS_SCHEMA_DIR: '/seu_share/home/huangjie/230248634/.conda/envs/MAGE/share/glib-2.0/schemas',
+    CONDA_ROOT: '/seu_share/apps/anaconda3',
+    VSCODE_ENV_PREPEND: 'PATH=/seu_share/apps/code-server-4.91.1/lib/vscode/bin/remote-cli\\x3a/usr/lpp/mmfs/bin\\x3a/seu_share/home/huangjie/230248634/.conda/envs/MAGE/bin\\x3a/seu_share/apps/anaconda3/condabin\\x3a/seu_share/home/huangjie/230248634/.local/bin\\x3a/seu_share/home/huangjie/230248634/bin\\x3a/usr/local/Modules/bin\\x3a/usr/lpp/mmfs/bin\\x3a/usr/local/git-2.48.0/bin\\x3a/usr/local/bin\\x3a/usr/bin\\x3a/usr/local/sbin\\x3a/usr/sbin\\x3a:PS1=(MAGE) '
+  }
+}
+[22:33:15] Error: listen EACCES: permission denied /run/user/2783/vscode-ipc-31663d16-d0c9-4f55-bf1d-a836fbaadb95.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1855:21)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2025:5)
+    at o.g (/seu_share/apps/code-server-4.91.1/lib/vscode/out/vs/server/node/server.main.js:185:78999)
+    at new o (/seu_share/apps/code-server-4.91.1/lib/vscode/out/vs/server/node/server.main.js:185:78914)
+    at t.s (/seu_share/apps/code-server-4.91.1/lib/vscode/out/vs/server/node/server.main.js:185:89343)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '/run/user/2783/vscode-ipc-31663d16-d0c9-4f55-bf1d-a836fbaadb95.sock',
+  port: -1
+}
+[22:33:49] Terminal profile not validated zsh [ 'zsh' ]
+[22:33:49] Terminal profile not validated fish [ 'fish' ]
+[22:33:49] Terminal profile not validated pwsh [ 'pwsh' ]
+[22:33:49] Terminal profile not validated tmux [ 'tmux' ]
+[22:33:50] Terminal process launching on remote agent {
+  shellLaunchConfig: {
+    name: undefined,
+    executable: '/bin/bash',
+    args: [],
+    cwd: '/seu_nvme/home/huangjie/230248634/SceneDetection',
+    env: undefined,
+    useShellEnvironment: true,
+    reconnectionProperties: undefined,
+    type: undefined,
+    isFeatureTerminal: undefined
+  },
+  initialCwd: '/seu_nvme/home/huangjie/230248634/SceneDetection',
+  cols: 198,
+  rows: 9,
+  env: {
+    HYDRA_LAUNCHER_EXTRA_ARGS: '--external-launcher',
+    __MODULES_LMINIT: 'module use --append /usr/local/Modules/modulefiles',
+    CONDA_SHLVL: '2',
+    SLURM_SHARDS_ON_NODE: '1',
+    CONDA_EXE: '/seu_share/apps/anaconda3/bin/conda',
+    SLURM_NODEID: '0',
+    SLURM_TASK_PID: '2198928',
+    SSH_CONNECTION: '172.22.2.242 47668 172.22.2.249 22',
+    SLURM_PRIO_PROCESS: '0',
+    I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS: '--external-launcher',
+    LANG: 'en_US.UTF-8',
+    SLURM_SUBMIT_DIR: '/seu_nvme/home/huangjie/230248634/SceneDetection',
+    HISTCONTROL: 'ignoredups',
+    OMPI_MCA_plm_slurm_args: '--external-launcher',
+    GUESTFISH_RESTORE: '\\e[0m',
+    HISTTIMEFORMAT: '[%Y-%m-%d %H:%M:%S] [230248634] []: ',
+    HOSTNAME: 'gpu14',
+    OLDPWD: '/seu_share/home/huangjie/230248634',
+    SLURM_CPUS_PER_TASK: '1',
+    ENVIRONMENT: 'BATCH',
+    GUESTFISH_INIT: '\\e[1;34m',
+    ROCR_VISIBLE_DEVICES: '0',
+    CONDA_PREFIX: '/seu_share/home/huangjie/230248634/.conda/envs/MAGE',
+    SLURM_PROCID: '0',
+    SLURM_JOB_GID: '13120',
+    I_MPI_HYDRA_BOOTSTRAP: 'slurm',
+    SLURMD_NODENAME: 'gpu14',
+    SLURM_JOB_END_TIME: '1768163562',
+    SLURM_TASKS_PER_NODE: '1',
+    S_COLORS: 'auto',
+    PRTE_MCA_plm_slurm_args: '--external-launcher',
+    _CE_M: '',
+    which_declare: 'declare -f',
+    XDG_SESSION_ID: '423056',
+    MODULES_CMD: '/usr/local/Modules/libexec/modulecmd.tcl',
+    USER: '230248634',
+    SLURM_NNODES: '1',
+    GUESTFISH_PS1: '\\[\\e[1;32m\\]><fs>\\[\\e[0;31m\\] ',
+    HF_ENDPOINT: 'https://hf-mirror.com',
+    SLURM_JOB_START_TIME: '1768141962',
+    SLURM_NTASKS_PER_NODE: '1',
+    PWD: '/seu_nvme/home/huangjie/230248634/SceneDetection',
+    SSH_ASKPASS: '/usr/libexec/openssh/gnome-ssh-askpass',
+    SLURM_JOB_NODELIST: 'gpu14',
+    HOME: '/seu_share/home/huangjie/230248634',
+    SLURM_CLUSTER_NAME: 'cluster',
+    CONDA_PYTHON_EXE: '/seu_share/apps/anaconda3/bin/python',
+    SLURM_NODELIST: 'gpu14',
+    SSH_CLIENT: '172.22.2.242 47668 22',
+    SLURM_NTASKS: '1',
+    SLURM_JOB_CPUS_PER_NODE: '1',
+    XDG_DATA_DIRS: '/seu_share/home/huangjie/230248634/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share',
+    SLURM_THREADS_PER_CORE: '1',
+    SLURM_TOPOLOGY_ADDR: 'gpu14',
+    _CE_CONDA: '',
+    __MODULES_SHARE_MANPATH: ':1',
+    SLURM_JOB_NAME: 'vscode',
+    TMPDIR: '/tmp',
+    SLURM_JOBID: '599713',
+    SLURM_CONF: '/etc/slurm/slurm.conf',
+    LOADEDMODULES: '',
+    SLURM_JOB_QOS: 'ogsp',
+    SLURM_TOPOLOGY_ADDR_PATTERN: 'node',
+    CONDA_PROMPT_MODIFIER: '(MAGE) ',
+    ZE_AFFINITY_MASK: '0',
+    SLURM_CPUS_ON_NODE: '1',
+    SLURM_JOB_NUM_NODES: '1',
+    SHELL: '/bin/bash',
+    SLURM_JOB_UID: '2783',
+    TC_LIB_DIR: '/usr/lib64/tc',
+    SLURM_JOB_PARTITION: 'jupyter',
+    SLURM_HINT: 'nomultithread',
+    SLURM_JOB_USER: '230248634',
+    SLURM_NPROCS: '1',
+    SHLVL: '4',
+    SLURM_SUBMIT_HOST: 'login02',
+    SLURM_JOB_ACCOUNT: 'huangjie',
+    MANPATH: '/usr/local/Modules/share/man:',
+    SLURM_TRES_PER_TASK: 'cpu:1',
+    HYDRA_BOOTSTRAP: 'slurm',
+    MODULEPATH: '/etc/scl/modulefiles:/seu_share/modulefiles/:/seu_share/modulefiles/new/:/seu_share/apps/spack/spack-0.21.1/share/spack/modules/linux-rocky8-skylake_avx512',
+    SLURM_GTIDS: '0',
+    LOGNAME: '230248634',
+    DBUS_SESSION_BUS_ADDRESS: 'unix:path=/run/user/2783/bus',
+    XDG_RUNTIME_DIR: '/run/user/2783',
+    PATH: '/seu_share/apps/code-server-4.91.1/lib/vscode/bin/remote-cli:/usr/lpp/mmfs/bin:/seu_share/home/huangjie/230248634/.conda/envs/MAGE/bin:/seu_share/apps/anaconda3/condabin:/seu_share/home/huangjie/230248634/.local/bin:/seu_share/home/huangjie/230248634/bin:/usr/local/Modules/bin:/usr/lpp/mmfs/bin:/usr/local/git-2.48.0/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/seu_share/apps/code-server-4.91.1/lib/vscode/bin/remote-cli:/usr/lpp/mmfs/bin:/seu_share/apps/anaconda3/bin:/seu_share/apps/anaconda3/condabin:/seu_share/home/huangjie/230248634/.local/bin:/seu_share/home/huangjie/230248634/bin:/usr/local/Modules/bin:/usr/lpp/mmfs/bin:/usr/local/git-2.48.0/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin',
+    SLURM_JOB_ID: '599713',
+    GUESTFISH_OUTPUT: '\\e[0m',
+    MODULESHOME: '/usr/share/Modules',
+    CONDA_DEFAULT_ENV: 'MAGE',
+    HISTSIZE: '1000',
+    HISTFILESIZE: '10000',
+    SLURM_LOCALID: '0',
+    GPU_DEVICE_ORDINAL: '0',
+    LESSOPEN: '||/usr/bin/lesspipe.sh %s',
+    'BASH_FUNC_which%%': '() {  ( alias;\n' +
+      ' eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot "$@"\n' +
+      '}',
+    'BASH_FUNC_module%%': '() {  local _mlredir=0;\n' +
+      ' if [ -n "${MODULES_REDIRECT_OUTPUT+x}" ]; then\n' +
+      ` if [ "$MODULES_REDIRECT_OUTPUT" = '0' ]; then\n` +
+      ' _mlredir=0;\n' +
+      ' else\n' +
+      ` if [ "$MODULES_REDIRECT_OUTPUT" = '1' ]; then\n` +
+      ' _mlredir=1;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' case " $@ " in \n' +
+      " *' --no-redirect '*)\n" +
+      ' _mlredir=0\n' +
+      ' ;;\n' +
+      " *' --redirect '*)\n" +
+      ' _mlredir=1\n' +
+      ' ;;\n' +
+      ' esac;\n' +
+      ' if [ $_mlredir -eq 0 ]; then\n' +
+      ' _module_raw "$@";\n' +
+      ' else\n' +
+      ' _module_raw "$@" 2>&1;\n' +
+      ' fi\n' +
+      '}',
+    'BASH_FUNC__module_raw%%': `() {  eval "$(/usr/bin/tclsh '/usr/local/Modules/libexec/modulecmd.tcl' bash "$@")";\n` +
+      ' _mlstatus=$?;\n' +
+      ' return $_mlstatus\n' +
+      '}',
+    'BASH_FUNC_scl%%': '() {  if [ "$1" = "load" -o "$1" = "unload" ]; then\n' +
+      ' eval "module $@";\n' +
+      ' else\n' +
+      ' /usr/bin/scl "$@";\n' +
+      ' fi\n' +
+      '}',
+    'BASH_FUNC_ml%%': '() {  module ml "$@"\n}',
+    LOG_LEVEL: 'debug',
+    NODE_EXEC_PATH: '/seu_share/apps/code-server-4.91.1/lib/node',
+    MODULES_LOGGED_EVENTS: 'requested_cmd:requested_eval',
+    MAIL: '/var/spool/mail/230248634',
+    _: '/seu_share/apps/code-server-4.91.1/lib/node',
+    VSCODE_PROXY_URI: 'https://sc.seu.edu.cn/rnode/gpu14/23504/proxy/{{port}}/',
+    BROWSER: '/seu_share/apps/code-server-4.91.1/lib/vscode/bin/helpers/browser.sh',
+    TERM_PROGRAM: 'vscode',
+    TERM_PROGRAM_VERSION: '1.91.1',
+    COLORTERM: 'truecolor',
+    GIT_ASKPASS: '/seu_share/apps/code-server-4.91.1/lib/vscode/extensions/git/dist/askpass.sh',
+    VSCODE_GIT_ASKPASS_NODE: '/seu_share/apps/code-server-4.91.1/lib/node',
+    VSCODE_GIT_ASKPASS_EXTRA_ARGS: '',
+    VSCODE_GIT_ASKPASS_MAIN: '/seu_share/apps/code-server-4.91.1/lib/vscode/extensions/git/dist/askpass-main.js',
+    VSCODE_GIT_IPC_HANDLE: '/run/user/2783/vscode-git-f81d4f9f7a.sock',
+    VSCODE_ENV_REPLACE: 'CONDA_SHLVL=2:GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=:CONDA_PREFIX=/seu_share/home/huangjie/230248634/.conda/envs/MAGE:CONDA_PREFIX_1=/seu_share/apps/anaconda3:GSETTINGS_SCHEMA_DIR=/seu_share/home/huangjie/230248634/.conda/envs/MAGE/share/glib-2.0/schemas:CONDA_PROMPT_MODIFIER=(MAGE) :CONDA_ROOT=/seu_share/apps/anaconda3:CONDA_DEFAULT_ENV=MAGE',
+    GSETTINGS_SCHEMA_DIR_CONDA_BACKUP: '',
+    CONDA_PREFIX_1: '/seu_share/apps/anaconda3',
+    GSETTINGS_SCHEMA_DIR: '/seu_share/home/huangjie/230248634/.conda/envs/MAGE/share/glib-2.0/schemas',
+    CONDA_ROOT: '/seu_share/apps/anaconda3',
+    VSCODE_ENV_PREPEND: 'PATH=/seu_share/apps/code-server-4.91.1/lib/vscode/bin/remote-cli\\x3a/usr/lpp/mmfs/bin\\x3a/seu_share/home/huangjie/230248634/.conda/envs/MAGE/bin\\x3a/seu_share/apps/anaconda3/condabin\\x3a/seu_share/home/huangjie/230248634/.local/bin\\x3a/seu_share/home/huangjie/230248634/bin\\x3a/usr/local/Modules/bin\\x3a/usr/lpp/mmfs/bin\\x3a/usr/local/git-2.48.0/bin\\x3a/usr/local/bin\\x3a/usr/bin\\x3a/usr/local/sbin\\x3a/usr/sbin\\x3a:PS1=(MAGE) '
+  }
+}
+[22:33:50] Error: listen EACCES: permission denied /run/user/2783/vscode-ipc-c2f25053-f7fb-4e98-a7bb-4812888ae6c7.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1855:21)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2025:5)
+    at o.g (/seu_share/apps/code-server-4.91.1/lib/vscode/out/vs/server/node/server.main.js:185:78999)
+    at new o (/seu_share/apps/code-server-4.91.1/lib/vscode/out/vs/server/node/server.main.js:185:78914)
+    at t.s (/seu_share/apps/code-server-4.91.1/lib/vscode/out/vs/server/node/server.main.js:185:89343)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '/run/user/2783/vscode-ipc-c2f25053-f7fb-4e98-a7bb-4812888ae6c7.sock',
+  port: -1
+}
